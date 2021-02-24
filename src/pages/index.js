@@ -1,7 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet";
-import { Link } from "gatsby";
-
+import Nav from "../components/Nav"
 import "../styles/main.css";
 
 export default function Home() {
@@ -18,13 +17,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@700;800&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet" />
       </Helmet>
-        <nav className="inline-nav border-bottom">
-          <Link to="/" className="name-link nav-link">Erik Higginbotham</Link>
-          <div className="social-links">
-            <Link to="/projects" className="social-link nav-link">Projects</Link>
-            <Link to="/Resume.pdf" className="social-link nav-link">Resume</Link>
-          </div>
-        </nav>
+      <Nav />
       <header className="splash border-bottom">
         <div className="center">
           <a href="/">
