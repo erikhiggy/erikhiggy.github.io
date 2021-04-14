@@ -140,3 +140,8 @@ h3 {
     display: flex;
     padding: 10px;
 }
+
+.project-container {
+    padding: 20px;
+    margin-bottom: 10px;
+}

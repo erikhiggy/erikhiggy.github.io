@@ -3,26 +3,20 @@
     {
       "title": "Temporun",
       "description": "Temporun is a data driven web-app designed to pair your run with similar tempo music.",
-      "link": "https://github.com/erikhiggy/temporun",
-      "image": "test.jpg"
+      "links": [
+        "https://github.com/erikhiggy/temporun",
+        "https://github.com/erikhiggy/temporun-api"
+      ],
+      "tech": "TypeScript, React, NodeJS"
     },
     {
-      "title": "Temporun",
-      "description": "Temporun is a data driven web-app designed to pair your run with similar tempo music.",
-      "link": "https://github.com/erikhiggy/temporun",
-      "image": "test.jpg"
-    },
-    {
-      "title": "Temporun",
-      "description": "Temporun is a data driven web-app designed to pair your run with similar tempo music.",
-      "link": "https://github.com/erikhiggy/temporun",
-      "image": "test.jpg"
-    },
-    {
-      "title": "Temporun",
-      "description": "Temporun is a data driven web-app designed to pair your run with similar tempo music.",
-      "link": "https://github.com/erikhiggy/temporun",
-      "image": "test.jpg"
+      "title": "Denoguide",
+      "description": "Denoguide is a simplistic TV guide for evening shows.",
+      "links": [
+        "https://github.com/erikhiggy/denoguide-ui",
+        "https://github.com/erikhiggy/denoguide-backend"
+      ],
+      "tech": "TypeScript, React, Deno"
     }
   ]
 }
