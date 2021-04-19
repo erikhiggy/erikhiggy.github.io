@@ -5,6 +5,13 @@ import { Helmet } from "react-helmet"
 import projects from "../staticData/projectData";
 
 export default function Projects() {
+  const [projects, setProjects] = React.useState([]);
+  React.useEffect(() => {
+    fetch("https://side-projects-tool.herokuapp.com/api/getProjects")
+      .then((response) => response.json())
+      .then((data) => setProjects(data));
+  }, []);
+
     return (
       <>
         <Helmet>
@@ -32,7 +39,7 @@ export default function Projects() {
           </div>
         </header>
         <main className="container">
-          {projects.data.map((datum) => {
+          {projects.map((datum) => {
             return (
               <Project data={datum} />
             )
