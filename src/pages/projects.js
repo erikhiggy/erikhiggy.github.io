@@ -2,7 +2,6 @@ import React from 'react';
 import Project from "../components/Project"
 import Nav from "../components/Nav"
 import { Helmet } from "react-helmet"
-import projects from "../staticData/projectData";
 
 export default function Projects() {
   const [projects, setProjects] = React.useState([]);
@@ -42,7 +41,7 @@ export default function Projects() {
           {projects.map((datum) => {
             return (
               <Project data={datum} />
-            )
+            );
           })}
         </main>
       </>
